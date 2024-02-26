@@ -29,7 +29,8 @@ function App() {
         setUserPlaces(places);
       } catch (error) {
         setError({
-          message: error.message || "Error Occured while fetching user data...",
+          message:
+            error.message || "Error Occured while fetching user data...!",
         });
       }
       setIsFetching(false);
